@@ -1,3 +1,17 @@
+# Audit Working Papers and Colour Blind App
+
+This is the single GitHub entry point for the two projects in this submission.
+
+| Project | Working demo | Source code |
+| --- | --- | --- |
+| Audit Working Papers | [Open audit demo](https://audit-working-papers-personal.darylaw307200.chatgpt.site) — ChatGPT sign-in | [Download complete audit source ZIP](https://github.com/darylaw/audit-working-papers-and-colour-blind-app/raw/refs/heads/main/audit-working-papers-submission.zip) |
+| Colour Blind App (Hue) | [Open colour blind app demo](https://hue-personal.darylaw307200.chatgpt.site/) | [Colour blind app source repository](https://github.com/AwDaryl/hue) |
+
+The projects are separate applications. Audit schedules stay within the audit app's browser session and are never sent to Hue or AI. Hue has its own optional photo-analysis flow and privacy terms; do not use it for client audit documents.
+
+The complete audit source, tests, and 99 fictitious PBC spreadsheets are packaged in `audit-working-papers-submission.zip` in this repository. Extract the ZIP before using the paths and commands below. Hue's source is maintained in the linked repository. Each project's README explains how to run it and records its verification limits.
+
+---
 # Audit Working Papers
 
 A browser-based working-papers platform for Singapore statutory audits. Import a PBC spreadsheet, inspect its source, review cleaning and column mapping, run deterministic tests, document auditor judgements, and export an Excel audit file.
@@ -6,7 +20,7 @@ A browser-based working-papers platform for Singapore statutory audits. Import a
 
 ## Try it
 
-1. Open the demo or double-click `app/audit-working-papers.html`. The standalone file needs no installation, server, or network.
+1. Open the demo, or download and extract `audit-working-papers-submission.zip` and double-click its `app/audit-working-papers.html`. The standalone file needs no installation, server, or network.
 2. Click **Fill demo details**.
 3. Pick a section and use its downloadable sample, or select a matching file from `synthetic-data/out/client-a/`.
 4. Review the source, cleaned listing, mapping, working papers, and exceptions.
@@ -34,7 +48,7 @@ Authentication and hosting are provided by Sites. Those platform services are di
 
 ## Run the checks
 
-Requires Node.js and Python 3; the app itself has no package installation step.
+Download and extract `audit-working-papers-submission.zip`, then open a terminal in the extracted folder. The checks require Node.js and Python 3; the app itself has no package installation step.
 
 ```sh
 python app/build.py
