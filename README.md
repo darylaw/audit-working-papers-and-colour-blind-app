@@ -7,7 +7,7 @@ This is the single GitHub entry point for the two projects in this submission.
 | Project | Working demo | Source code |
 | --- | --- | --- |
 | Audit Working Papers | [Open updated audit demo](https://audit-working-papers-personal.darylaw307200.chatgpt.site) — ChatGPT sign-in; choose IFRS / SFRS(I) or US GAAP before importing | [Download complete audit source ZIP](https://github.com/darylaw/audit-working-papers-and-colour-blind-app/raw/refs/heads/main/audit-working-papers-submission.zip) |
-| Colour Blind App (Hue) | [Open colour blind app demo](https://hue-personal.darylaw307200.chatgpt.site/) | [Colour blind app source repository](https://github.com/AwDaryl/hue) |
+| Colour Blind App (Hue) | [Open colour blind app demo](https://hue.darylaw307200.chatgpt.site/) | [Colour blind app source repository](https://github.com/AwDaryl/hue) |
 
 
 The projects are separate applications. Audit schedules stay within the audit app's browser session and are never sent to Hue or AI. Hue has its own optional photo-analysis flow and privacy terms; do not use it for client audit documents.
