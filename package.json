@@ -1,0 +1,1 @@
+{"name":"audit-working-papers","private":true,"type":"commonjs","scripts":{"build":"python app/build.py","build:site":"node hosting/build.mjs","test":"node app/test/run-all.js"}}

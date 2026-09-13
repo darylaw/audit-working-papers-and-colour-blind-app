@@ -1,0 +1,10 @@
+dist/
+.sites-runtime/
+.openai/hosting.json
+node_modules/
+**/__pycache__/
+app/test/out-*.xlsx
+*.tar.gz
+.env
+.env.*
+!.env.example
